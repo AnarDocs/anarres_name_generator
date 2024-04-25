@@ -37,9 +37,6 @@ class NamesGenerator:
             if len(proposal) == 5 or len(proposal) == 6:
                 break
 
-        # todo: check of name already given to living person
-        # todo: check if non-dictionary-word
-
         return proposal
 
 for _ in range(10):
